@@ -1,3 +1,5 @@
+"use client";
+
 import { AccountCancellation } from '@/components/account-cancellation';
 
 export default function CancelAccountPage() {
