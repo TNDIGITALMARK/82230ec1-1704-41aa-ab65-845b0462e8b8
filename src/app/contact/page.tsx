@@ -1,16 +1,16 @@
 import Header from '@/components/header';
-import HeroSection from '@/components/hero-section';
-import ServiceCards from '@/components/service-cards';
 import Footer from '@/components/footer';
+import ContactSection from '@/components/contact-section';
+import ProblemAssessment from '@/components/problem-assessment';
 
 export const dynamic = 'force-dynamic'
 
-export default function Index() {
+export default function ContactPage() {
   return (
     <div className="min-h-screen">
       <Header />
-      <HeroSection />
-      <ServiceCards />
+      <ContactSection />
+      <ProblemAssessment />
       <Footer />
     </div>
   );
